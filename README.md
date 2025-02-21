@@ -308,9 +308,6 @@ GROUP BY category;
 14. **Write a SQL query to create on each timeframe of number of orders ( Morning before 12, Afternoon before 5 and night before mid-night)**:
 ```sql
 
-SELECT * FROM retail_sales
-LIMIT 3; -- Analysing Table Format
-
 SELECT 
 	order_time, 
 	count(transactions_id)
